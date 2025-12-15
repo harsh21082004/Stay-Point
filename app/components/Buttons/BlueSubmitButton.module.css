@@ -1,0 +1,13 @@
+.button{
+    width: 90%;
+}
+
+
+.button button{
+    padding: 8px 10px;
+    width: 100%;
+    background-color: #6e6ebc;
+    color: black;
+    border-radius: 5px;
+    font-size: 18px;
+}

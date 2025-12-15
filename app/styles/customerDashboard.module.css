@@ -1,0 +1,71 @@
+.dashboard{
+    width: calc(100% - 300px);
+    margin-left: 300px;
+    margin-top: 80px;
+    padding: 10px;
+}
+
+.dashboard h2{
+    color: #fff;
+    font-size: 1.7rem;
+    margin-bottom: 10px;
+}
+
+.recent{
+    background-color: #1D232F;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.cards{
+    display: flex;
+    gap: 10px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    max-width: 100%;
+    border-radius: 10px;
+    padding-bottom: 10px;
+    padding: 20px 0 ;
+}
+
+.cards::-webkit-scrollbar{
+    height: 10px;
+}
+
+.cards::-webkit-scrollbar-thumb{
+    background-color: #0b0f17;
+    border-radius: 10px;
+}
+
+.cards::-webkit-scrollbar-track{
+    background-color: #29313C;
+    border-radius: 10px;
+}
+
+.profile{
+    padding: 10px 20px;
+}
+
+.profile_details{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.profile_info{
+    display: flex;
+    /* flex-direction: column; */
+    gap: 10px;
+    align-items: center;
+}
+
+.profile_info h3{
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+.profile_info p{
+    color: #a7a7a7;
+    font-size: 0.8rem;
+}

@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground: #ffffff;
+  --background: #141720;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+}
+
+h1,h2,h3,h4,h5,h6,p,span,li,a,button,input,select {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 450;
+  font-style: normal;
+}

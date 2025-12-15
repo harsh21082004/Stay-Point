@@ -1,0 +1,66 @@
+.profile{
+    position: relative;
+    display: flex;
+}
+
+
+.profileModal{
+    position: absolute;
+    display: none;
+    width: 150px;
+    flex-direction: column;
+    gap: 5px;
+    top: 12px;
+    right: 10px;
+    background-color: #1f2331;
+    padding: 3px;
+    border-radius: 5px;
+    border: 3px solid #2b2d32;
+    align-items: flex-start;
+}
+
+.profile i:hover ~ .profileModal, .profile img:hover ~ .profileModal{
+    display: flex !important;
+}
+
+.profileModal:hover{
+    display: flex !important;
+}
+
+.profileModal a, .profileModal button{
+    color: white;
+    font-size: 15px;
+    padding: 3px 10px;
+    border-radius: 3px;
+    transition: all 0.3s;
+    width: 100%;
+    text-align: left;
+}
+
+.profileModal a:hover, .profileModal button:hover{
+    background-color: #CBCCFC !important;
+    color: #000138 !important;
+}
+
+.profile i{
+    display: flex;
+    /* width: 40px;
+    height: 40px; */
+    font-size: 17px;
+    padding: 15px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: #2e3444;
+    cursor: pointer;
+    box-sizing: border-box;
+    border: 2.5px solid #CBCCFC;
+}
+
+.profile img{
+    border-radius: 50%;
+    margin-right: 10px;
+    box-sizing: border-box;
+    border: 2.5px solid #007eb0;
+    object-fit: cover;
+}

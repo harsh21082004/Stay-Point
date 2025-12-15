@@ -1,0 +1,38 @@
+.form{
+    width: 550px;
+}
+
+.input{
+    /* width: 100%; */
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+
+.input input{
+    width: 100%;
+    padding: 7px 15px;
+    border-radius: 10px;
+    outline: none;
+    font-size: 18px;
+    background-color: #1D232F;
+    color: white;
+    box-shadow: 0 0 0 3px #84848428;
+}
+
+.input span{
+    position: absolute;
+    right: 15px;
+    cursor: pointer;
+}
+
+.input input:focus{
+    box-shadow: 0 0 0 3px #cbccfc76;
+}
+
+@media screen and (max-width: 600px){
+    .input input{
+        font-size: 15px;
+        padding: 2px 8px;
+    }
+}

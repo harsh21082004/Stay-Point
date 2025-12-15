@@ -1,0 +1,80 @@
+.sidebar{
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    background-color: #141720;
+    width: 300px;
+    border-right: 3px solid #2b2d32;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    justify-content: flex-start;
+    gap: 50px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    z-index: 10;
+}
+
+.sidebar::-webkit-scrollbar {
+    width: 10px;
+}
+
+.sidebar::-webkit-scrollbar-thumb {
+    background-color: #2b2d32;
+    border-radius: 10px;
+}
+
+.sidebar::-webkit-scrollbar-track {
+    background-color: #141720;
+}
+
+.sidebar .top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sidebar .top button i{
+    font-size: 30px;
+    color: #b0b0b0;
+}
+
+.sidebar .top a, .notActiveLink{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    color: #b0b0b0;
+}
+
+.sidebar .top a h2{
+    font-size: 25px;
+}
+
+.sidebar .top img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.sidebar .middle ul{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+
+@media screen and (max-width: 768px){
+    .sidebar, .SidebarClose{
+        transform: translateX(-120%);
+        transition: all 0.3s;
+        top: 75px;
+    }
+
+    .SidebarOpen{
+        transform: translateX(0);
+    }
+}

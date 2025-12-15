@@ -1,0 +1,25 @@
+.links{
+    padding: 10px 15px;
+    font-size: 18px;
+    width: 100%;
+    border-radius: 5px;
+    font-weight: bold;
+    display: flex;
+    align-items: center; 
+    gap: 15px;
+}
+
+.links i{
+    width: 20px;
+    height: 20px;
+}
+
+.activeLink, .activeLink:hover{
+    background-color: #CBCCFC !important;
+    color: #000138 !important;
+}
+
+.links:hover{
+    background-color: #2b2d32;
+    color: #fff;
+}

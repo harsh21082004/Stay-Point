@@ -1,0 +1,14 @@
+.main{
+    margin-left: 300px;
+    margin-top: 75px;
+    padding: 20px;
+    width: calc(100% - 300px);
+}
+
+@media screen and (max-width: 768px){
+    .main{
+        margin-left: 0;
+        width: 100%;
+    }
+    
+}

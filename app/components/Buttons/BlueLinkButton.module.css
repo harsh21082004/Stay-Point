@@ -1,0 +1,27 @@
+.blueLinkButton {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    color: white;
+    background-color: #CBCCFC;
+    padding: 7px 15px;
+    border-radius: 10px;
+    font-size: 18px;
+    color: black;
+    min-width: 100px;
+    justify-content: center;
+}
+
+.blueLinkButton:hover {
+    background-color: #9292d9;
+    color: white;
+}
+
+@media screen and (max-width: 768px) {
+    .blueLinkButton {
+        min-width: 70px;
+        padding: 5px 10px;
+        font-size: 13px;
+    }
+
+}
